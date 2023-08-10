@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+    font-weight: bold;
+}
+
+.main{
+    padding-bottom: 2rem;
+}
+
+.container2{
+    width: 70%;
+}
+
+.label{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.formdiv{
+    padding: 19px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.flex{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.main-container{
+    width: 80%;
+}
+
+.steps{
+    margin-bottom: 1rem;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 600;
+    color: #292929a2;
+}
+
+.form-check-label{
+    font-weight: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.flex2{
+    display: flex;
+    gap: 100px;
+}
+
+p{
+    margin: 0;
+}
+
+.p1{
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.p2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.p3{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: rgb(77, 76, 76);
+}
+
+.formdiv2{
+    background-color: whitesmoke;
+}
+
+.button-div{
+    /* background-color: red; */
+    text-align: center;
+}
+
+button{
+    border: none;
+    padding: 8px 10px;
+    background-color: rgb(0, 200, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width: 425px) {
+    .container2{
+        width: 100%;
+    }
+
+    .formdiv{
+        padding: 10px 20px;
+    }
+
+    .flex{
+        gap: 10px;
+    }
+
+    .flex2{
+        gap: 0px;
+        flex-wrap: wrap;
+    }
+
+}
