@@ -7,7 +7,7 @@
 
 body {
     /* background-color: rgba(252, 228, 179, 0.698); */
-    background-image: linear-gradient( #ffefba, #ffffff);
+    background-image: linear-gradient(#ffffff, #ffefba, #ffffff);
 }
 
 a {
