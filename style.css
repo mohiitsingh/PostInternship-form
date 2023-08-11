@@ -1,129 +1,160 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
+body {
+    /* background-color: rgba(252, 228, 179, 0.698); */
+    background-image: linear-gradient( #ffefba, #ffffff);
+}
+
+a {
     text-decoration: none;
-    color: rgb(0, 149, 255);
+    /* color: rgb(0, 149, 255); */
+    color: orangered;
     font-weight: bold;
 }
 
-.main{
+.main {
     padding-bottom: 2rem;
 }
 
-.container2{
+.container2 {
     width: 70%;
 }
 
-.label{
+.label {
     margin-bottom: 10px;
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-.formdiv{
+.formdiv {
     padding: 19px 30px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
+    border: 1px solid orange;
     border-radius: 5px;
 }
 
-.flex{
+.flex {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
 }
 
-.main-container{
+.main-container {
     width: 80%;
 }
 
-.steps{
+.steps {
     margin-bottom: 1rem;
 }
 
-label{
+label {
     font-size: 15px;
     font-weight: 600;
     color: #292929a2;
 }
 
-.form-check-label{
+input{
+    outline: 1px solid aliceblue;
+}
+
+.form-check-label {
     font-weight: normal;
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.flex2{
-    display: flex;
-    gap: 100px;
-}
-
-p{
+    -webkit-appearance: none;
     margin: 0;
 }
 
-.p1{
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.p1 {
     font-size: 15px;
     font-weight: 500;
     color: gray;
     margin-bottom: 1rem;
 }
 
-.p2{
+.p2 {
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-.p3{
+.p3 {
     margin-bottom: 10px;
     font-size: 15px;
     color: rgb(77, 76, 76);
 }
 
-.formdiv2{
+.formdiv2 {
     background-color: whitesmoke;
 }
 
-.button-div{
+.button-div {
     /* background-color: red; */
     text-align: center;
 }
 
-button{
+button {
     border: none;
     padding: 8px 10px;
     background-color: rgb(0, 200, 255);
     color: white;
     font-weight: bold;
     border-radius: 3px;
+    background-color: black;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+@media screen and (max-width: 834px) {
+    .container2 {
+        width: 85%;
+    }
+
+    .main-container {
+        width: 100%;
+    }
 }
 
 
+
+
 @media screen and (max-width: 425px) {
-    .container2{
+    .container2 {
         width: 100%;
     }
 
-    .formdiv{
+    .formdiv {
         padding: 10px 20px;
     }
 
-    .flex{
+    .flex {
         gap: 10px;
     }
+}
 
-    .flex2{
-        gap: 0px;
-        flex-wrap: wrap;
+@media screen and (max-width: 375px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        margin-bottom: 10px;
     }
-
 }
